@@ -47,5 +47,6 @@ WORKDIR /opt/code
 
 # expose port(s)
 EXPOSE 80
+EXPOSE 8000
 
 CMD supervisord -c /etc/supervisor/conf.d/supervisord.conf
