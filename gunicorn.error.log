@@ -1,0 +1,96 @@
+[2016-11-08 03:57:03 +0000] [10] [INFO] Starting gunicorn 19.6.0
+[2016-11-08 03:57:03 +0000] [10] [INFO] Listening at: http://127.0.0.1:8000 (10)
+[2016-11-08 03:57:03 +0000] [10] [INFO] Using worker: sync
+[2016-11-08 03:57:03 +0000] [19] [INFO] Booting worker with pid: 19
+[2016-11-08 03:57:03 +0000] [19] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-11-08 03:57:03 +0000] [19] [INFO] Worker exiting (pid: 19)
+[2016-11-08 03:57:03 +0000] [10] [INFO] Shutting down: Master
+[2016-11-08 03:57:03 +0000] [10] [INFO] Reason: Worker failed to boot.
+[2016-11-08 03:57:04 +0000] [20] [INFO] Starting gunicorn 19.6.0
+[2016-11-08 03:57:04 +0000] [20] [INFO] Listening at: http://127.0.0.1:8000 (20)
+[2016-11-08 03:57:04 +0000] [20] [INFO] Using worker: sync
+[2016-11-08 03:57:04 +0000] [25] [INFO] Booting worker with pid: 25
+[2016-11-08 03:57:04 +0000] [25] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-11-08 03:57:04 +0000] [25] [INFO] Worker exiting (pid: 25)
+[2016-11-08 03:57:04 +0000] [20] [INFO] Shutting down: Master
+[2016-11-08 03:57:04 +0000] [20] [INFO] Reason: Worker failed to boot.
+[2016-11-08 03:57:07 +0000] [26] [INFO] Starting gunicorn 19.6.0
+[2016-11-08 03:57:07 +0000] [26] [INFO] Listening at: http://127.0.0.1:8000 (26)
+[2016-11-08 03:57:07 +0000] [26] [INFO] Using worker: sync
+[2016-11-08 03:57:07 +0000] [31] [INFO] Booting worker with pid: 31
+[2016-11-08 03:57:07 +0000] [31] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-11-08 03:57:07 +0000] [31] [INFO] Worker exiting (pid: 31)
+[2016-11-08 03:57:07 +0000] [26] [INFO] Shutting down: Master
+[2016-11-08 03:57:07 +0000] [26] [INFO] Reason: Worker failed to boot.
+[2016-11-08 03:57:10 +0000] [32] [INFO] Starting gunicorn 19.6.0
+[2016-11-08 03:57:10 +0000] [32] [INFO] Listening at: http://127.0.0.1:8000 (32)
+[2016-11-08 03:57:10 +0000] [32] [INFO] Using worker: sync
+[2016-11-08 03:57:10 +0000] [37] [INFO] Booting worker with pid: 37
+[2016-11-08 03:57:10 +0000] [37] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-11-08 03:57:10 +0000] [37] [INFO] Worker exiting (pid: 37)
+[2016-11-08 03:57:10 +0000] [32] [INFO] Shutting down: Master
+[2016-11-08 03:57:10 +0000] [32] [INFO] Reason: Worker failed to boot.
