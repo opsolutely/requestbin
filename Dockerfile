@@ -29,8 +29,8 @@ RUN rm /etc/nginx/sites-enabled/default
 RUN mkdir /opt/code
 
 # Add service.conf
-COPY ./service.conf /opt/code/
-RUN ln -s /opt/code/service.conf /etc/nginx/sites-enabled/
+COPY ./nginx.conf /opt/code/
+RUN ln -s /opt/code/nginx.conf /etc/nginx/nginx.conf
 
 # Add supervisor
 COPY ./supervisord.conf /opt/code/
